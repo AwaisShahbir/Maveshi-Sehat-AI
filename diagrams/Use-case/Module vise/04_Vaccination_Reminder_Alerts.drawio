@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="fkNbZxOPGxD8caKh9jI9" name="Page-1">
+    <mxGraphModel dx="960" dy="514" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Calibri;" value="Vaccination Reminder &amp; Alerts" vertex="1">
+          <mxGeometry height="40" width="700" x="287" y="77" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;arcSize=2;" value="" vertex="1">
+          <mxGeometry height="494" width="643" x="304" y="71" as="geometry" />
+        </mxCell>
+        <mxCell id="Wxc8i-MgkAY1I3vf0tsl-6" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="206" y="200" as="sourcePoint" />
+            <mxPoint x="206" y="259" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lo_figure" parent="1" style="shape=umlActor;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=11;fontFamily=Calibri;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Livestock Owner&lt;br&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="54" x="185" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Wxc8i-MgkAY1I3vf0tsl-8" edge="1" parent="1" source="vet_figure" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=block;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="364" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vet_figure" parent="1" style="shape=umlActor;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=11;fontFamily=Calibri;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Veterinarian&lt;/font&gt;" vertex="1">
+          <mxGeometry height="66" width="54" x="178" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="notif_figure" parent="1" style="shape=umlActor;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=11;fontFamily=Calibri;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Notification Service&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="54" x="1012" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Set Vaccination Schedule&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="360" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="Wxc8i-MgkAY1I3vf0tsl-11" edge="1" parent="1" source="uc2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=open;startFill=0;endArrow=none;endFill=0;dashed=1;" target="Wxc8i-MgkAY1I3vf0tsl-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wxc8i-MgkAY1I3vf0tsl-12" connectable="0" parent="Wxc8i-MgkAY1I3vf0tsl-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0094" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Receive Vaccination Reminder&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Wxc8i-MgkAY1I3vf0tsl-13" edge="1" parent="1" source="uc3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;" target="Wxc8i-MgkAY1I3vf0tsl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wxc8i-MgkAY1I3vf0tsl-14" connectable="0" parent="Wxc8i-MgkAY1I3vf0tsl-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0394" y="-2" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;View Upcoming Reminders&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="360" y="283" as="geometry" />
+        </mxCell>
+        <mxCell id="uc5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;View Notification History&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="343" y="373.5" as="geometry" />
+        </mxCell>
+        <mxCell id="uc6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Manage Vaccination Schedule&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="329" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="uc7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Send Push Notification&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="180" x="750" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uc8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Generate Schedule from&lt;br&gt;Livestock Records&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="180" x="750" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="lo_figure" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="Wxc8i-MgkAY1I3vf0tsl-5" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="Wxc8i-MgkAY1I3vf0tsl-5" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;endFill=0;entryX=0.084;entryY=0.179;entryDx=0;entryDy=0;entryPerimeter=0;" target="uc5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="217" y="228" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="vet_figure" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;endFill=0;" target="uc6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="notif_figure" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;endFill=0;" target="uc7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc1" edge="1" parent="1" source="uc2" style="edgeStyle=none;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#000000;fontSize=10;fontFamily=Calibri;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="uc7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;«include»&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc2" edge="1" parent="1" source="uc1" style="edgeStyle=none;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#000000;fontSize=13;fontFamily=Calibri;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="uc8" value="«include»">
+          <mxGeometry relative="1" x="0.0105" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wxc8i-MgkAY1I3vf0tsl-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space: nowrap;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Dismiss Alert&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="171" x="747" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="Wxc8i-MgkAY1I3vf0tsl-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Reschedule Alert" vertex="1">
+          <mxGeometry height="57" width="198" x="667" y="316.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Wxc8i-MgkAY1I3vf0tsl-4" edge="1" parent="1" source="Wxc8i-MgkAY1I3vf0tsl-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.039;entryY=0.663;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="uc3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wxc8i-MgkAY1I3vf0tsl-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;gradientColor=default;" value="User" vertex="1">
+          <mxGeometry height="79" width="53" x="179" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Wxc8i-MgkAY1I3vf0tsl-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="inherit" vertex="1">
+          <mxGeometry height="30" width="60" x="125" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="Wxc8i-MgkAY1I3vf0tsl-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="inherit" vertex="1">
+          <mxGeometry height="30" width="60" x="136" y="383.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="geaX2uYeHTEcLJv-p8mb" name="Page-1">
+    <mxGraphModel dx="1013" dy="542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Calibri;" value="AI Disease Detection" vertex="1">
+          <mxGeometry height="40" width="700" x="241" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;arcSize=2;" value="" vertex="1">
+          <mxGeometry height="518" width="756" x="220" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="lo_figure" parent="1" style="shape=umlActor;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=11;fontFamily=Calibri;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Livestock Owner&lt;br&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="108" width="54" x="95" y="339" as="geometry" />
+        </mxCell>
+        <mxCell id="d3lO2Y9ZOIkTJfeuezyq-1" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="uc10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1005" y="494" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d3lO2Y9ZOIkTJfeuezyq-2" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="uc5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1006" y="511" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ai_figure" parent="1" style="shape=umlActor;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=11;fontFamily=Calibri;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;AI Model&lt;br&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="54" x="1010" y="469" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Upload Animal Image&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="309" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Capture Image via Camera&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="304" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Detect Disease (AI)&lt;br&gt;LSD / FMD / Tick&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="306" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;View Diagnosis Result&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="298" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="uc5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Body Condition Scoring&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="298" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="uc6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;View Detection History&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="260" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="uc7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;View AI Diagnosis Result&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="272" y="622" as="geometry" />
+        </mxCell>
+        <mxCell id="uc8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Preprocess Image&lt;br&gt;(OpenCV)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="180" x="675" y="219" as="geometry" />
+        </mxCell>
+        <mxCell id="uc9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Run TensorFlow Model&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="180" x="706" y="339" as="geometry" />
+        </mxCell>
+        <mxCell id="uc10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Calibri;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Display Confidence Score&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="180" x="697" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="lo_figure" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="lo_figure" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="lo_figure" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;endFill=0;" target="uc3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="lo_figure" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;endFill=0;" target="uc4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="lo_figure" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="301" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="lo_figure" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="lo_figure" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;endFill=0;exitX=1;exitY=0.898;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="152" y="609.6827648067147" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="ai_figure" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uc9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc1" edge="1" parent="1" source="uc1" style="edgeStyle=none;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#000000;fontSize=10;fontFamily=Calibri;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="uc8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;«include»&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc2" edge="1" parent="1" source="uc3" style="edgeStyle=none;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#000000;fontSize=10;fontFamily=Calibri;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="uc9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;«include»&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc3" edge="1" parent="1" source="uc4" style="edgeStyle=none;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#000000;fontSize=10;fontFamily=Calibri;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="uc10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;«include»&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

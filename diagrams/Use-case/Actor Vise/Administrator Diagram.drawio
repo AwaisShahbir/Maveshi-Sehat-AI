@@ -1,0 +1,119 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="A1xlBts26sQjkZgqA5eR">
+    <mxGraphModel dx="1407" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="system" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;direction=east;fontColor=#000000;gradientColor=none;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="710" width="610" x="200" y="-320" as="geometry" />
+        </mxCell>
+        <mxCell id="nyc2WX_S529-Dj5GYWUt-13" edge="1" parent="system" source="uc1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontSize=13;" target="nyc2WX_S529-Dj5GYWUt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nyc2WX_S529-Dj5GYWUt-14" connectable="0" parent="nyc2WX_S529-Dj5GYWUt-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0565" y="-1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyc2WX_S529-Dj5GYWUt-17" edge="1" parent="system" source="uc1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;fontSize=13;" target="nyc2WX_S529-Dj5GYWUt-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nyc2WX_S529-Dj5GYWUt-18" connectable="0" parent="nyc2WX_S529-Dj5GYWUt-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0262" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc1" parent="system" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=13;" value="&lt;font&gt;Authentication&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40.57142857142857" width="122" x="24.156" y="63.81908507223113" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" parent="system" style="ellipse;labelBackgroundColor=none;fontSize=13;" value="Manage Livestock" vertex="1">
+          <mxGeometry height="40.57142857142857" width="122" x="24.15841584158416" y="131.85714285714286" as="geometry" />
+        </mxCell>
+        <mxCell id="uc5" parent="system" style="ellipse;labelBackgroundColor=none;fontSize=13;" value="Verify Veterinarian" vertex="1">
+          <mxGeometry height="40.57142857142857" width="122" x="24.15841584158416" y="192.7142857142857" as="geometry" />
+        </mxCell>
+        <mxCell id="uc6" parent="system" style="ellipse;labelBackgroundColor=none;fontSize=13;" value="Manage Roles (RBAC)" vertex="1">
+          <mxGeometry height="40.57" width="151.94" x="18.06" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="uc7" parent="system" style="ellipse;labelBackgroundColor=none;fontSize=13;" value="Approve Medicines" vertex="1">
+          <mxGeometry height="40.57" width="141.88" x="18.12" y="304.86" as="geometry" />
+        </mxCell>
+        <mxCell id="uc8" parent="system" style="ellipse;labelBackgroundColor=none;fontSize=13;" value="Manage Medicine Listings" vertex="1">
+          <mxGeometry height="45.71" width="165.84" x="24.16" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="uc9" parent="system" style="ellipse;labelBackgroundColor=none;fontSize=13;" value="Monitor System Activity" vertex="1">
+          <mxGeometry height="50.57" width="165.84" x="24.16" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="uc11" parent="system" style="ellipse;labelBackgroundColor=none;fontSize=13;" value="Handle Consultation Reports" vertex="1">
+          <mxGeometry height="40.57" width="185.84" x="24.16" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="uc13" parent="system" style="ellipse;labelBackgroundColor=none;fontSize=13;" value="Configure System Settings" vertex="1">
+          <mxGeometry height="40.57" width="179.5" x="30.5" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="uc14" parent="system" style="ellipse;labelBackgroundColor=none;fontSize=13;" value="Send System Notifications" vertex="1">
+          <mxGeometry height="46" width="171.94" x="18.06" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="uc15" parent="system" style="ellipse;labelBackgroundColor=none;fontSize=13;" value="Send Push Notification" vertex="1">
+          <mxGeometry height="40.57142857142857" width="134.2" x="423.4117647058824" y="402.0469707401032" as="geometry" />
+        </mxCell>
+        <mxCell id="nyc2WX_S529-Dj5GYWUt-1" parent="system" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontSize=13;" value="&lt;font&gt;&lt;b&gt;Administrator Use Case&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="25.36" width="220.4" x="219.6" y="25.36" as="geometry" />
+        </mxCell>
+        <mxCell id="nyc2WX_S529-Dj5GYWUt-11" parent="system" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" value="&lt;font&gt;Login&lt;/font&gt;" vertex="1">
+          <mxGeometry height="43.87640449438202" width="114.82352941176471" x="244.53823529411764" y="63.82022471910113" as="geometry" />
+        </mxCell>
+        <mxCell id="nyc2WX_S529-Dj5GYWUt-12" parent="system" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" value="&lt;font&gt;Register&lt;/font&gt;" vertex="1">
+          <mxGeometry height="39.8876404494382" width="122" x="244.53823529411764" y="131.8605617977528" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;fontSize=13;" value="Administrator" vertex="1">
+          <mxGeometry height="80" width="40" x="70" y="25.430000000000007" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="admin" style="labelBackgroundColor=none;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=13;" target="uc1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="admin" style="labelBackgroundColor=none;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=13;" target="uc4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="admin" style="labelBackgroundColor=none;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=13;" target="uc5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="admin" style="labelBackgroundColor=none;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=13;" target="uc6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="admin" style="labelBackgroundColor=none;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=13;" target="uc7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="admin" style="labelBackgroundColor=none;fontColor=default;endArrow=none;endFill=0;fontSize=13;entryX=0.007;entryY=0.549;entryDx=0;entryDy=0;entryPerimeter=0;" target="uc8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="admin" style="labelBackgroundColor=none;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=13;" target="uc9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="admin" style="labelBackgroundColor=none;fontColor=default;entryX=0.029;entryY=0.419;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=13;" target="uc11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="admin" style="labelBackgroundColor=none;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=13;" target="uc13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="admin" style="labelBackgroundColor=none;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=13;" target="uc14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="include1" edge="1" parent="1" source="uc14" style="dashed=1;endArrow=block;labelBackgroundColor=default;fontColor=#000000;fontSize=13;" target="uc15" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" x="0.0004" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="uc15" style="labelBackgroundColor=none;fontColor=default;endArrow=none;endFill=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" target="nyc2WX_S529-Dj5GYWUt-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="590.683994528044" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyc2WX_S529-Dj5GYWUt-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" value="Notification Service" vertex="1">
+          <mxGeometry height="60" width="30" x="830" y="62.620000000000005" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
