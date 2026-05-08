@@ -1,0 +1,230 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="7ZwN6CMjsfNEwLP-Ds8e">
+    <mxGraphModel dx="1073" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1020" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=16;fontStyle=1;" value="2.7 Weather Heat Alert System" vertex="1">
+          <mxGeometry height="28" width="840" x="80" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="System" vertex="1">
+          <mxGeometry height="38" width="110" x="40" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="Weather API" vertex="1">
+          <mxGeometry height="38" width="120" x="240" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;" value="Notification Service" vertex="1">
+          <mxGeometry height="38" width="140" x="460" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=11;" value="Livestock Owner" vertex="1">
+          <mxGeometry height="38" width="130" x="710" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#82b366;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="86" as="sourcePoint" />
+            <mxPoint x="95" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l2" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#9673a6;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="86" as="sourcePoint" />
+            <mxPoint x="300" y="867" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#d6b656;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="86" as="sourcePoint" />
+            <mxPoint x="530" y="874" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#d79b00;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="86" as="sourcePoint" />
+            <mxPoint x="775" y="873" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sep1" parent="1" style="text;html=1;strokeColor=#cccccc;fillColor=#f5f5f5;align=left;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#666666;" value="Scheduled Weather Polling &amp; Heat Index Calculation" vertex="1">
+          <mxGeometry height="18" width="940" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="loop1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;strokeColor=#000000;fillColor=none;fontSize=11;fontStyle=1;" value="loop" vertex="1">
+          <mxGeometry height="175" width="920" x="58" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lc1" parent="1" style="text;html=1;fontSize=10;fontStyle=2;align=left;" value="[for each registered owner location]" vertex="1">
+          <mxGeometry height="16" width="240" x="58" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ab1a" parent="1" style="fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="130" width="10" x="90" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;fontSize=10;" value="fetchWeather(lat,lon)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="175" as="sourcePoint" />
+            <mxPoint x="300" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ab2a" parent="1" style="fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="295" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" edge="1" parent="1" style="endArrow=open;endFill=0;dashed=1;html=1;fontSize=10;" value="weatherData(temp,humidity,conditions)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="205" as="sourcePoint" />
+            <mxPoint x="95" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;fontSize=10;strokeColor=#82b366;" value="calculateHeatIndex(temp,humidity)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188" y="228" />
+              <mxPoint x="188" y="248" />
+            </Array>
+            <mxPoint x="95" y="228" as="sourcePoint" />
+            <mxPoint x="95" y="248" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;fontSize=10;strokeColor=#82b366;" value="compareThreshold(heatIndex)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188" y="270" />
+              <mxPoint x="188" y="288" />
+            </Array>
+            <mxPoint x="95" y="270" as="sourcePoint" />
+            <mxPoint x="95" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frag1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;strokeColor=#000000;fillColor=none;fontSize=11;fontStyle=1;swimlaneFillColor=none;" value="alt" vertex="1">
+          <mxGeometry height="248" width="920" x="58" y="323" as="geometry" />
+        </mxCell>
+        <mxCell id="fg1c1" parent="1" style="text;html=1;fontSize=10;fontStyle=2;align=left;" value="[heatIndex exceeds threshold]" vertex="1">
+          <mxGeometry height="16" width="210" x="58" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="ab1b" parent="1" style="fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="90" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="m5" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;fontSize=10;strokeColor=#82b366;" value="generateAlertMessage(heatIndex,advice)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188" y="365" />
+              <mxPoint x="188" y="385" />
+            </Array>
+            <mxPoint x="95" y="365" as="sourcePoint" />
+            <mxPoint x="95" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;fontSize=10;" value="«async» dispatchAlert(ownerId,message)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="408" as="sourcePoint" />
+            <mxPoint x="530" y="408" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ab3a" parent="1" style="fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="26" width="10" x="525" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="m7" edge="1" parent="1" style="endArrow=open;endFill=0;dashed=1;html=1;fontSize=10;" value="«async» pushHeatAlert(owner)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="434" as="sourcePoint" />
+            <mxPoint x="775" y="434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;fontSize=10;strokeColor=#d79b00;" value="receiveHeatAlert()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="868" y="458" />
+              <mxPoint x="868" y="476" />
+            </Array>
+            <mxPoint x="775" y="458" as="sourcePoint" />
+            <mxPoint x="775" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fdiv1" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="58" y="500" as="sourcePoint" />
+            <mxPoint x="978" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fg1c2" parent="1" style="text;html=1;fontSize=10;fontStyle=2;align=left;" value="[normal conditions]" vertex="1">
+          <mxGeometry height="16" width="150" x="65" y="504" as="geometry" />
+        </mxCell>
+        <mxCell id="m9" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;fontSize=10;strokeColor=#82b366;" value="logWeatherReading(data)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188" y="535" />
+              <mxPoint x="188" y="555" />
+            </Array>
+            <mxPoint x="95" y="535" as="sourcePoint" />
+            <mxPoint x="95" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sep2" parent="1" style="text;html=1;strokeColor=#cccccc;fillColor=#f5f5f5;align=left;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#666666;" value="View Preventive Guidance &amp; Acknowledge Alert" vertex="1">
+          <mxGeometry height="18" width="940" x="40" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="m10" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;fontSize=10;" value="viewPreventiveGuidance(alertId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="623" as="sourcePoint" />
+            <mxPoint x="95" y="623" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ab1c" parent="1" style="fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="35" width="10" x="90" y="623" as="geometry" />
+        </mxCell>
+        <mxCell id="m11" edge="1" parent="1" style="endArrow=open;endFill=0;dashed=1;html=1;fontSize=10;" value="heatSafetyGuidelines()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="658" as="sourcePoint" />
+            <mxPoint x="775" y="658" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m12" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;fontSize=10;" value="acknowledgeAlert(alertId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="685" as="sourcePoint" />
+            <mxPoint x="95" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ab1d" parent="1" style="fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="38" width="10" x="90" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="m13" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;fontSize=10;strokeColor=#82b366;" value="markAcknowledged(alertId)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188" y="703" />
+              <mxPoint x="188" y="718" />
+            </Array>
+            <mxPoint x="95" y="703" as="sourcePoint" />
+            <mxPoint x="95" y="718" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m14" edge="1" parent="1" style="endArrow=open;endFill=0;dashed=1;html=1;fontSize=10;" value="alertDismissed()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="743" as="sourcePoint" />
+            <mxPoint x="775" y="743" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sep3" parent="1" style="text;html=1;strokeColor=#cccccc;fillColor=#f5f5f5;align=left;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#666666;" value="View Alert History" vertex="1">
+          <mxGeometry height="18" width="940" x="40" y="768" as="geometry" />
+        </mxCell>
+        <mxCell id="m15" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;fontSize=10;" value="viewAlertHistory()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="798" as="sourcePoint" />
+            <mxPoint x="95" y="798" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ab1e" parent="1" style="fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="48" width="10" x="90" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="m16" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;fontSize=10;strokeColor=#82b366;" value="fetchAlertHistory(ownerId)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188" y="815" />
+              <mxPoint x="188" y="835" />
+            </Array>
+            <mxPoint x="95" y="815" as="sourcePoint" />
+            <mxPoint x="95" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m17" edge="1" parent="1" style="endArrow=open;endFill=0;dashed=1;html=1;fontSize=10;" value="alertHistory()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="858" as="sourcePoint" />
+            <mxPoint x="775" y="858" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
